@@ -13,9 +13,9 @@ const INITIAL_STATE = Object.fromEntries(
 );
 
 const emailjsConfig = {
-  serviceId: "service_z26cyfc"//import.meta.env.VITE_EMAILJS_SERVICE_ID,
-  templateId: "template_padyz8o"// import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
-  accessToken:"Ab2fQfa49gQeFTqvW"// import.meta.env.VITE_EMAILJS_ACCESS_TOKEN,
+  serviceId ="service_z26cyfc"//import.meta.env.VITE_EMAILJS_SERVICE_ID,
+  templateId = "template_padyz8o"// import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+  accessToken = "Ab2fQfa49gQeFTqvW"// import.meta.env.VITE_EMAILJS_ACCESS_TOKEN,
 };
 
 const Contact = () => {
